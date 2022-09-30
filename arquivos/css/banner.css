@@ -1,0 +1,53 @@
+.banner {
+    position: relative;
+   
+  
+  }
+  
+  .banner__titulo {
+    font-size: 100px;
+    color: #8d0606;
+    font-family: pacifico, cursive;
+    position: absolute;
+    left: 50%;
+    padding-top: 15px;
+    bottom: 20%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  .banner__imagem {
+    width: 100%;
+    height: 650px;
+    padding-bottom: 5%;
+    transition: opacity 3s ease-in-out;
+   
+  }
+
+  @media  (max-width: 400px ) {
+    .banner__titulo {
+      width: 100%;
+      height: 200px;
+      font-size: 40px;
+      text-align: center;
+     
+    
+    }
+
+    .banner__imagem {
+      width: 99%;
+      height: 300px;
+
+      
+    }
+
+
+
+    
+
+}
+  
+
+
+  

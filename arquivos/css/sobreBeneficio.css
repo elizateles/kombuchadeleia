@@ -1,0 +1,54 @@
+.sobre, .beneficio {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .sobre__titulo, .beneficio__titulo, .contato__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 2rem;
+    color: #8d0606;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  
+  .sobre__texto-destaque, .beneficio__texto-destaque {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    text-align: center;
+  
+  }  
+  
+  
+  .sobre__texto, .beneficio__texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    
+    text-align: left;
+  }
+  
+  
+  
+  .sobre__texto-destaque, .beneficio__texto-destaque {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+  
+  }  
+
+  @media (max-width: 400px ) {
+    .sobre__texto-destaque, .beneficio__texto-destaque {
+      margin-left: 1px;
+      margin-right: 10px;
+    }
+
+    .sobre__texto, .beneficio__texto {
+      text-align: center;
+      
+    }
+  }

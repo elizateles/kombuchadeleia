@@ -1,0 +1,61 @@
+.sabores__titulo {
+    text-align: center;
+    color: #8d0606;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  
+  }
+  
+  
+  .sabores {
+    background: #e5e5e5;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+      flex-wrap: wrap;
+  }
+  
+  
+  .sabor {
+    text-align: center;
+      flex-direction: column;
+  
+  }
+  
+  
+  .sabor__imagem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    width: 180px;
+    height: 350px;
+    border-radius: 50px;
+   
+  }
+  
+  .sabor__titulo {
+    font-size: 1.4375rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  
+  .receita__conteudo {
+    padding: 1rem;
+  }
+
+  @media (max-width: 400px ) {
+    .sabor__imagem {
+     
+      padding-right: 1rem;
+      padding-left: 1rem;
+      
+    } 
+
+
+
+
+  }

@@ -1,0 +1,14 @@
+.footer{
+    background: orange;
+    font-size: 20px;
+   
+  }
+  
+  .footer__rodape {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 2rem 2rem;
+   
+  }
+  
