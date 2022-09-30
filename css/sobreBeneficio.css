@@ -41,7 +41,7 @@
   
   }  
 
-  @media (max-width: 400px ) {
+  @media (max-width: 600px ) {
     .sobre__texto-destaque, .beneficio__texto-destaque {
       margin-left: 1px;
       margin-right: 10px;

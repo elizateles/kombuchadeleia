@@ -85,7 +85,7 @@
   }
   
   
-  @media (max-width: 400px ) {
+  @media (max-width: 600px ) {
     .listaDeArtigos-artigo-img {
       width: 100%;
       height: 250px;

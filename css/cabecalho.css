@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: .60rem;
+    margin-top: 20px;
     padding-bottom: .80rem;
     position: relative;
   }
@@ -40,7 +40,7 @@ body {
     color: black;
   }
 
-  @media (max-width: 400px ) {
+  @media (max-width: 600px ) {
     .cabecalho__navegacao {
         flex-direction: row;
         justify-content: space-between;
